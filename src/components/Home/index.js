@@ -42,7 +42,7 @@ const Home = () => {
                 strArray={jobArray}
                 idx={15}/>                
                 </h1>
-                <h2>Computer Science major with a concentration in Software Development</h2>
+                <h2>Computer Science major with a concentration in Artificial Intelligence</h2>
                 <Link to="/contact" className='flat-button'> CONTACT ME</Link>
             </div>
             <Logo />

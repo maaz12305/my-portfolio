@@ -24,7 +24,7 @@ const Contact = () => {
         e.preventDefault()
 
         emailjs
-        .sendForm('service_fd4hmsu', 'template_4q40czf', form.current, 'RUdeHiy92kqzVvr2G')
+        .sendForm('service_fd4hmsu', 'template_o1iu06n', form.current, 'RUdeHiy92kqzVvr2G')
             .then(
                 () => {
                     alert('Message successfully sent!')

@@ -31,21 +31,94 @@ const Projects = () => {
                     />
                 </h1>
                 <h2>
-                    Personal Portfolio Website using React.js, HTML, & CSS
+                    Personal Portfolio Website (React.js, HTML, CSS)
                 </h2>
-
                 <ul>
                     <li>
-                    Developed and designed this personal portfolio website using HTML, CSS, and React.js 
+                    Developed and designed this personal portfolio website with HTML, CSS, and React.js with descriptions of all the projects I have worked on. 
                     </li>
                     <li>
-                    Integrated interactive features and dynamic content to enhance user engagement and experience
+                    Integrated interactive features and dynamic content to enhance user engagement and experience.
                     </li>
                     <li>
-                    Implemented advanced animation techniques to enhance user experience
+                    Implemented advanced animation techniques to enhance user experience.
                     </li>
                 </ul>
 
+                <h2>
+                    Stock Exchange Simulation (Java)
+                </h2>
+                <ul>
+                    <li>
+                    Designed an Object-Oriented Trading System in Java, leveraging Singleton, Facade, Flyweight, and Observer design patterns for efficient user, product, and market data management. 
+                    </li>
+                    <li>
+                    Optimized memory and performance by implementing Flyweight Pattern to minimize redundant Price objects. 
+                    </li>
+                    <li>
+                    Developed a real-time Market Publication System, allowing users to subscribe/unsubscribe and receive live updates through the Observer Pattern. 
+                    </li>
+                    <li>
+                    Applied robust exception handling and validation, ensuring error-free transactions and system reliability.
+                    </li>
+                     <li>
+                    Implemented scalable and maintainable architecture by applying Java OOP principles like encapsulation, polymorphism, and interface-based design. 
+                    </li>
+                </ul>
+
+                <h2>
+                    YouTube Clone - Video Sharing Platform (Cloud, Next.js, Firebase)
+                </h2>
+                <ul>
+                    <li>
+                    Built a scalable YouTube clone with video upload, processing, and playback using cloud architecture. 
+                    </li>
+                    <li>
+                    Enabled authenticated video uploads with Google Cloud Storage and signed URLs for secure file handling. 
+                    </li>
+                    <li>
+                    Developed a video processing pipeline using Pub/Sub, Cloud Run, and FFmpeg for transcoding. 
+                    </li>
+                    <li>
+                    Created a Next.js client with Firebase Authentication and Firestore for video metadata retrieval. 
+                    </li>
+                </ul>
+                
+                <h2>
+                    Personal Finance Tracker (Python, Matplotlib)
+                </h2>
+                <ul>
+                    <li>
+                    Built Python-based CLI tool to tracking & analyze personal finances, automating expense categorization from CSV files. 
+                    </li>
+                    <li>
+                    Generated data visualizations using bar and pie charts to summarize trends & category distributions using Matplotlib.
+                    </li>
+                    <li>
+                    Developed interactive features, enabling users to relabel categories, view transaction breakdowns, & filter data. 
+                    </li>
+                    <li>
+                    Provided insights like monthly savings, largest spending categories, and trend analysis for informed decision-making. 
+                    </li>
+                </ul>
+
+                <h2>
+                    Todo App (React.js, Node.js, MongoDB)
+                </h2>
+                <ul>
+                    <li>
+                    Developed full-stack web app with React.js, Node.js, and MongoDB, with JWT authentication and CRUD functionality. 
+                    </li>
+                    <li>
+                    Built a RESTful API with secure user session management. 
+                    </li>
+                    <li>
+                    Deployed on Netlify (frontend) and Render (backend) with CORS policies and environment variables for security. 
+                    </li>
+                    <li>
+                    Applied error handling, validation, and tested backend routes using Thunder Client. 
+                    </li>
+                </ul>
                 <h2>
                     Connect 4 Game Implementation in Java
                 </h2>
@@ -64,43 +137,7 @@ const Projects = () => {
                     Designed a toString method to visualize the game board state, aiding in debugging and user interface display
                     </li>
                 </ul>
-
-                <h2>
-                    Sorted Integer Set Implementation in Java
-                </h2>
-
-                <ul>
-                    <li>
-                    Developed a Java implementation of a Sorted Integer Set data structure using a singly-linked list
-                    </li>
-                    <li>
-                    Implemented methods for adding, removing, and checking membership of integers in the set
-                    </li>
-                    <li>
-                    Implemented operations for computing the union, intersection, subset, and equality between two sets
-                    </li>
-                </ul>
-
-                <h2>
-                    Combining Stack & Queue Functionality in Java
-                </h2>
-                <ul>
-                <li>
-                reated a Deque (Double-Ended Queue) data structure in Java, combining the functionalities of a stack and a queue
-                </li>
-
-                <li>
-                Implemented push and pop operations at both ends of Deque, enabling efficient insertion and removal of elements
-                </li>
-
-                <li>
-                Utilized doubly linked list design to maintain constant time complexity for operations, ensuring optimal performance
-                </li>
-                <li>
-                Conducted rigorous testing to ensure the accuracy of the Deque implementation, including handling edge cases and maintaining data consistency
-                </li>
-                </ul>
-                </div>
+            </div>
 
             <div className='stage-cube-cont'>
                 <div className='cubespinner'>

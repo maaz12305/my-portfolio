@@ -30,7 +30,7 @@ const About = () => {
                         idx={15}
                     />
                 </h1>
-                <p>I am currently pursuing a degree in Computer Science with a concentration in software development at DePaul University. 
+                <p>I am currently pursuing a degree in Computer Science with a concentration in Artificial Intelligence at DePaul University. 
                     I am currently looking for a role as a software engineering intern and hope to work with the latest technologies on challenging projects.</p>
                 <p> {' '} 
                 As an aspiring software engineer, I thrive on the challenges of coding and problem-solving, constantly seeking innovative solutions to real-world problems.
